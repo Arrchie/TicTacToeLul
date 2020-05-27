@@ -137,7 +137,7 @@ public class Game {
         gameBoard[x][y] = currentPlayer.getIcon();
         controller.drawMove(currentPlayer, x, y);
         currentPlayer = otherPlayer(currentPlayer);
-        System.out.println(x + " " + y);
+        System.out.println(x + " " + y); //debugging
         for (String[] s : gameBoard) {
             System.out.println(Arrays.toString(s));
         }
